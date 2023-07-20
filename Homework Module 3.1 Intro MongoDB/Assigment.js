@@ -1,7 +1,8 @@
-### Create Database
-use spotify
---------------------------------------------------------------------------------------
-### Make Collections "Songs"
+/// Create Database
+//use spotify
+
+// --------------------------------------------------------------------------------------
+/// Make Collections "Songs"
 songs = [
     {title: "Creep", artist: "Radiohead", album: "Pablo Honey"},
     {title: "Someone like you", artist: "Adele", album: "21"},
@@ -16,9 +17,9 @@ songs = [
 ]
 db.songs.insertMany(songs)
 db.songs.find()
-![Alt text](image-1.png)
---------------------------------------------------------------------------------------
-### Make Collections "Artists"
+
+// --------------------------------------------------------------------------------------
+/// Make Collections "Artists"
 artist = [
     {name: "Adele", birth: "5-05-1988", genre: "Pop, Soul"},
     {name: "Rex Orange County", birth: "4-05-1998", genre: "Jazz, Hip-Hop"},
@@ -33,9 +34,9 @@ artist = [
 ]
 db.artists.insertMany(artists)
 db.artists.find()
-![Alt text](image-2.png)
---------------------------------------------------------------------------------------
-### Make Collections "Popular Songs"
+
+// --------------------------------------------------------------------------------------
+/// Make Collections "Popular Songs"
 popSong = [
     {title: "Creep", played: "23.480.519", peroid: "Montly Listener"},
     {title: "Someone like you", played: "1.619.711.909", peroid: "2011 - Now"},
@@ -50,8 +51,7 @@ popSong = [
 ]
 db.popular.insertMany(popSong)
 db.popular.find()
-![Alt text](image-3.png)
---------------------------------------------------------------------------------------
-show dbs
-show collections
-![Alt text](image-4.png)
+
+// --------------------------------------------------------------------------------------
+// show dbs
+// show collections
